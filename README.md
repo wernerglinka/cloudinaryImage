@@ -44,7 +44,7 @@ npm install wg-cloudinary-image
   ## Author
   [Werner Glinka](werner@glinka.co)
 
-[npm-badge]: https://img.shields.io/npm/v/wg-cloudinary-image.svg
-[npm-url]: https://www.npmjs.com/package/wg-cloudinary-image
+[npm-badge]: https://img.shields.io/npm/v/cloudinaryimage.svg
+[npm-url]: https://www.npmjs.com/package/cloudinaryimage
 [license-badge]: https://img.shields.io/github/license/wernerglinka/cloudinaryImage
 [license-url]: LICENSE
