@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        font-family: Helvetica, sans-serif;
+      }
+      
+      cloudinary-image {
+        /* set image height to full viewport height, default is auto */
+        /*--image-height: 100%;*/
+      }
+      .image-wrapper {
+        width: 100%;
+        max-width: 600px;
+        margin: 50px auto;
+        
+      }
+      
+    </style>
+    <script src="components/title/wg-title.js" type="module"></script>
+    <script src="components/cloudinaryImage/wg-cloudinaryImage.js" type="module"></script>
+    <script src="components/link/wg-link.js" type="module"></script>
+    
+  </head>
+  <body>
+
+      <title-component
+          prefix="just saying..."
+          title="Minneapolis" 
+          subtitle="The City of Lakes"
+          headerTag="h1"
+        ></title-component>
+
+
+    <cta-link url="https://www.apple.com" isButton="true" colorScheme="inverted" isExternal="true">Learn More</cta-link>
+    
+    <div class="image-wrapper">
+      <cloudinary-image
+        id="bob-dylan-mural"
+        base="https://res.cloudinary.com/glinkaco/image/upload/"
+        imageId="v1688513430/bob-dylan-mural_anzmom.jpg" 
+        alt="Bob Dylan Mural in Minneapolis"
+      ></cloudinary-image>
+
+    </div>
+    <div class="image-wrapper">
+      <cloudinary-image 
+        base="https://res.cloudinary.com/glinkaco/image/upload/"
+        imageId="v1688508839/uptown-minneapolis_roques.jpg" 
+        alt="Evening in Minneapolis"
+      ></cloudinary-image>
+    </div>
+    <div class="image-wrapper">
+      <cloudinary-image 
+        base="https://res.cloudinary.com/glinkaco/image/upload/"
+        imageId="v1647546742/tgc2022/corporate_ip4qbt.jpg" 
+        alt="Skyscrapers in Minneapolis"
+      ></cloudinary-image>
+    </div>
+    <div class="image-wrapper">
+      <cloudinary-image 
+        base="https://res.cloudinary.com/glinkaco/image/upload/"
+        imageId="v1636656058/gatsby4mdx/trees_ovi9xa.jpg" 
+        alt="Trees in fog"
+      ></cloudinary-image>
+    </div>
+
+    <script>
+      setTimeout(() => {
+        const target = document.getElementById("bob-dylan-mural");
+        target.imageid = "v1688508839/uptown-minneapolis_roques.jpg";
+        target.alt="Yahooooooo";
+      }, 3000);
+
+      
+      
+
+    </script>
+
+  </body>
+</html>
