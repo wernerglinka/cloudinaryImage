@@ -39,12 +39,12 @@ npm install wg-cloudinary-image
   ```
 
   ## License
-  [MIT](https://choosealicense.com/licenses/mit/)
+  [MIT](https://github.com/wernerglinka/cloudinaryImage/blob/main/LICENSE)
 
   ## Author
   [Werner Glinka](werner@glinka.co)
 
 [npm-badge]: https://img.shields.io/npm/v/wg-cloudinary-image.svg
 [npm-url]: https://www.npmjs.com/package/wg-cloudinary-image
-[license-badge]: https://img.shields.io/github/license/wernerglinka/wg-cloudinary-image
+[license-badge]: https://img.shields.io/github/license/wernerglinka/cloudinaryImage
 [license-url]: LICENSE
