@@ -17,25 +17,11 @@
         margin: 50px auto;
         
       }
-      
     </style>
-    <script src="components/title/wg-title.js" type="module"></script>
-    <script src="components/cloudinaryImage/wg-cloudinaryImage.js" type="module"></script>
-    <script src="components/link/wg-link.js" type="module"></script>
+    <script src="lib/wg-cloudinaryImage.js" type="module"></script>
     
   </head>
   <body>
-
-      <title-component
-          prefix="just saying..."
-          title="Minneapolis" 
-          subtitle="The City of Lakes"
-          headerTag="h1"
-        ></title-component>
-
-
-    <cta-link url="https://www.apple.com" isButton="true" colorScheme="inverted" isExternal="true">Learn More</cta-link>
-    
     <div class="image-wrapper">
       <cloudinary-image
         id="bob-dylan-mural"
@@ -73,10 +59,6 @@
         target.imageid = "v1688508839/uptown-minneapolis_roques.jpg";
         target.alt="Yahooooooo";
       }, 3000);
-
-      
-      
-
     </script>
 
   </body>
