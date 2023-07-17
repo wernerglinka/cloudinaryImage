@@ -8,7 +8,7 @@ The CloudinaryImage component uses progressive image loading, e.g., display a lo
 
 ## Installation
 ```bash
-npm install wg-cloudinary-image
+npm install cloudinaryimage
 ```
 ## Usage
 ```html
@@ -44,7 +44,7 @@ npm install wg-cloudinary-image
   ## Author
   [Werner Glinka](werner@glinka.co)
 
-[npm-badge]: https://img.shields.io/npm/v/cloudinaryimage.svg
-[npm-url]: https://www.npmjs.com/package/cloudinaryimage
+[npm-badge]: https://img.shields.io/npm/v/cloudinaryImage.svg
+[npm-url]: https://www.npmjs.com/package/cloudinaryImage
 [license-badge]: https://img.shields.io/github/license/wernerglinka/cloudinaryImage
 [license-url]: LICENSE

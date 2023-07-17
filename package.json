@@ -2,10 +2,10 @@
   "name": "cloudinaryimage",
   "version": "1.1.0",
   "description": "Lazy load images from Cloudinary",
-  "main": "wg-cloudinaryImage.js",
+  "main": "cloudinaryimage.js",
   "scripts": {
-    "test": "light-server -s ./ -o -w 'wg-cloudinaryImage.js'",
-    "prettier": "prettier --write wg-cloudinaryImage.js"
+    "test": "light-server -s ./ -o -w 'cloudinaryimage.js'",
+    "prettier": "prettier --write cloudinaryimage.js"
   },
   "repository": {
     "type": "git",
