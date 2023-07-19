@@ -45,6 +45,6 @@ npm install cloudinaryimage
   [Werner Glinka](werner@glinka.co)
 
 [npm-badge]: https://img.shields.io/npm/v/cloudinaryimage.svg
-[npm-url]: https://www.npmjs.com/package/cloudinaryimage
+[npm-url]: https://www.npmjs.com/package/@wernerglinka/cloudinaryimage
 [license-badge]: https://img.shields.io/github/license/wernerglinka/cloudinaryImage
 [license-url]: LICENSE
